@@ -1,0 +1,170 @@
+*{
+    background-color: #f0f2f5;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 90vh;
+    min-width: 90vw;
+}
+.inicial{
+    margin-left: 35px;
+}
+.inicial .texto{
+    color:#1c1e21;
+    font-size: 30px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    margin-left: 90px;
+    width: 535px;
+}
+.inicial img{
+    width: 350px;
+    margin-left: 55px;
+}
+.b{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 140px;
+}
+.formulario{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    margin-bottom: 20px;
+    width: 405px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.b .formulario form{
+    border-radius: 10px;
+}
+.b .formulario .info1{
+    width: 364px;
+    height: 52px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.b .formulario .info2{
+    width: 364px;
+    height: 52px;
+    margin-top: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.formulario .info1 input[type="email"]{
+    width: 364px;
+    height:52px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #1d2129;
+    border-radius: 6px;
+    border-style:solid;
+    border-color: black;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    background: white;
+}
+.formulario .info2 input[type="password"]{
+    width: 364px;
+    height: 52px;
+    font-size: 20px;
+    color: #1d2129;
+    padding: 14px 16px;
+    border-radius: 6px;
+    border-style:solid;
+    border-color: black;
+    border: 1px solid #dddfe2;
+    background: white;
+}
+#entrar{
+    background: white;
+}
+.formulario #entrar button {
+    background: #1877F2;
+    width: 364px;
+    height: 52px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color:white;
+    font-weight: bolder;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 20px;
+}
+.formulario #esqueceu{
+    display: flex;
+    width: 364px;
+    height: 52px;    
+    justify-content: center;
+    align-items: center;    
+    background:white;
+    border-bottom: 1px solid #dadde1;
+}
+.formulario #esqueceu a{
+    background: white;
+    text-decoration: none;
+    color:#1877F2;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: none;    
+}
+.formulario #criar{
+    background: white;
+}
+
+.formulario #criar button {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background: #42b72a;
+    border: none;
+    margin:25px;
+    padding: 13px 0px;
+    border-radius: 5px;
+}
+.formulario #criar button a {
+    color:white;
+    font-size: 17px;
+    padding: 0 16px;
+    background: #42b72a;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.b .final{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    width: 395px;    
+}
+.b .final p{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #1c1e21;
+}
+.b .final p a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #1c1e21;
+}
+.b .final p a:hover{
+    text-decoration:underline;
+}
+.formulario form {
+    background: white;
+}
+.formulario .info2 {
+    background: white;
+}
